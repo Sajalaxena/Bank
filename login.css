@@ -1,0 +1,134 @@
+body {
+    background-image: url("images/form-image.png");
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 100vh;
+}
+.main-heading{
+    text-align: center;
+    color: white;
+    font-family: 'Domine', serif;
+    width: auto;
+    height: 200px;
+    padding-top: 50px;
+    
+}
+.left-part{
+    background-color: #001220;
+    overflow: hidden;
+    flex: 1;
+}
+h1{
+    padding: auto;
+    font-size:400%;
+}
+
+
+
+.slider img {
+    /* margin-top: 170px; */
+    /* margin-left: 50px; */
+    animation: slide 8s infinite;
+
+}
+.pic{
+    width: 50vw;
+    height: 580px;
+    object-fit: cover;
+}
+.right-part{
+    flex: 1;
+   
+
+}
+.form {
+    
+    padding: 50px;
+    color: #fff;
+    margin-top: 250px;
+    /* max-width: 300px;
+    max-height: 300px; */
+    margin-right: 200px;
+    margin-left: 70px;
+ 
+}
+
+.form h2 {
+    margin-top: 0;
+    font-family: 'Domine', serif;
+}
+
+.form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form label {
+    margin-bottom: 10px;
+    font-family: 'Domine', serif;
+}
+
+.form input[type="text"],
+.form input[type="password"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    opacity: 0.5;
+}
+
+.btn {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Domine', serif;
+}
+.btn:hover{
+    background-color: #678868;
+}
+@keyframes slide {
+    0% {
+        transform: translateX(0%);
+    }
+
+    20% {
+        transform: translateX(0%);
+    }
+
+    25% {
+        transform: translateX(-100%);
+    }
+
+    45% {
+        transform: translateX(-100%);
+    }
+
+    50% {
+        transform: translateX(-200%);
+    }
+
+    70% {
+        transform: translateX(-200%);
+    }
+
+    75% {
+        transform: translateX(-300%);
+    }
+
+    95% {
+        transform: translateX(-300%);
+    }
+
+    100% {
+        transform: translateX(-400%);
+    }
+}
